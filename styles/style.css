@@ -1,0 +1,31 @@
+@import url(../styles/header.css);
+@import url(../styles/banner.css);
+@import url(../styles/about.css);
+@import url(../styles/skills.css);
+@import url(../styles/hobbies.css);
+@import url(../styles/projects.css);
+@import url(../styles/contact.css);
+@import url(../styles/footer.css);
+
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FFDC00;
+    --orange: #FE5621;
+    --gradient-main: linear-gradient(270deg, #FFDC00 69.27%, rgba(255, 197, 111, 0.9) 100%);
+    --gradient-dark: linear-gradient(178.38deg, #FE5621 57.18%, #66C0E0 99.77%);
+
+    --montserrat: "Montserrat";
+    --poppins: "Poppins";
+}
+
+body{
+    background-color: var(--white);
+    background-image: url("../assets/gradiente_azul_claro_fundo_2.png"), url(../assets/gradiente_azul_claro_fundo.jpg);
+    background-position:right bottom, left top;
+    background-repeat: no-repeat;
+    color: var(--black);
+    font-family: var(--poppins);
+    font-size: 1em;
+    font-weight: 400;
+}
